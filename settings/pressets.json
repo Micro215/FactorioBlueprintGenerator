@@ -1,0 +1,17 @@
+{
+    "blueprint":
+    {
+        "icons": [{"signal": {"type": "item", "name": "constant-combinator"}, "index": 1}],
+        "entities": [],
+
+        "item": "blueprint",
+        "version": 281479278690304
+    },
+
+    "entity-base": {"entity_number": 0, "name": "", "position": {"x": 0, "y": 0}},
+    "siganl-base": {"signal": {"type": "", "name": ""}, "count": 1, "index": 0},
+    "connection-base": {"connections": {"1": {"red": [], "green": []}, "2": {"red": [], "green": []}}},
+    "neighbours-base": {"neighbours": []},
+
+    "frame-decider-const": {"control_behavior": {"decider_conditions": {"first_signal": {"type": "virtual", "name": "signal-green"}, "constant": 0, "comparator": ">", "output_signal": {"type": "virtual", "name": "signal-everything"}, "copy_count_from_input": true}}}
+}

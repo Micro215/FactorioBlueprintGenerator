@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Test files
+blueprint.txt
+test/
+
 # C extensions
 *.so
 
