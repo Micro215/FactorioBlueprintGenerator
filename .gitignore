@@ -6,6 +6,7 @@ __pycache__/
 # Test files
 blueprint.txt
 test/
+old/
 
 # C extensions
 *.so

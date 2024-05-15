@@ -7,10 +7,8 @@ resize = input("Do you want resize video? [Y/N]: ")
 if resize.upper() == "Y": resize = True
 else: resize = False
 
-height = 0
-
-if resize:
-    height = int(input("Enter new height of video in pixels: "))
+if resize: height = int(input("Enter new height of video in pixels: "))
+else: height = None
 
 invert = input("Do you want invert video? [Y/N]: ")
 

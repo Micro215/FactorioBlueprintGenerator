@@ -28,7 +28,7 @@ class FactorioVideoBlueprint():
         self.height = self.video["height"]
         self.width = self.video["width"]
 
-        self.constant_combinator_count = math.ceil(height / 20)
+        self.constant_combinator_count = math.ceil(self.height / 20)
         self.counter_pos_delay = 2
         self.substation_delay = 18
 
